@@ -566,6 +566,7 @@ a {
     margin-top: 55px;
     gap: 30px;
     display: flex;
+    overflow: hidden;
 }
 
 .blog .blog-list .thumb {
@@ -583,11 +584,11 @@ a {
     flex-shrink: 0;
     width: calc(33.33% - 20px);
     background: #fff;
+    border-radius: 16px;
 }
 
 .blog .item:hover {
-    border-radius: 0 0 16px 16px;
-    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.2);
 }
 
 .blog .item .date {
@@ -652,7 +653,7 @@ a {
     height: 6px;
     border-radius: 50%;
     cursor: pointer;
-    background: #5F5B53;
+    background: #5f5b53;
 }
 
 .blog .dot.active {
